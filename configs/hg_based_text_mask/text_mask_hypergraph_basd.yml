@@ -1,0 +1,8 @@
+_BASE_: [
+  '../datasets/voc_logo.yml',
+  '../runtime.yml',
+  '_base_/optimizer.yml',
+  '_base_/network.yml',
+  '_base_/reader.yml',
+]
+weights: output/text_mask_hypergraph_based/model_final
